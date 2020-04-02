@@ -26,13 +26,13 @@ $ (document).ready(function(){
   // per hamburger menù quando compare
   $('.fa-bars').click(
     function(){
-      $('.hamburgerMenu').attr('id', 'hambur');
+      $('.hamburgerMenu').hide().toggle();
     }
   );
 
   $('.fa-times').click(
     function(){
-      $('.hamburgerMenu').attr('id', 'null');
+      $('.hamburgerMenu').hide();
     }
   );
 });

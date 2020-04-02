@@ -84,9 +84,6 @@
   cursor: pointer;
 }
 
-#hambur{
-  display: block;
-}
 
 /* media query */
 
@@ -116,7 +113,7 @@
 
 @media all and (min-width: 1001px){
 
- #hambur{
+ .hamburgerMenu p, .hamburgerMenu>ul li, .fa-times{
    display: none;
  }
 
